@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
 import { metadata } from "./metadata";
 import Header from "./components/header";
+import Footer from "./components/footer";
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

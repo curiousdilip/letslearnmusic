@@ -88,9 +88,9 @@ const Header = () => {
             id="main-header"
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className={`nav-item ${isActive("/projects")}`}>
-                <Link href="/projects" className="nav-link" onClick={closeMenu}>
-                  Projects
+              <li className={`nav-item ${isActive("/")}`}>
+                <Link href="/" className="nav-link" onClick={closeMenu}>
+                  Home
                 </Link>
               </li>
               <li className={`nav-item ${isActive("/about")}`}>
@@ -98,9 +98,9 @@ const Header = () => {
                   About
                 </Link>
               </li>
-              <li className={`nav-item ${isActive("/resume")}`}>
-                <Link href="/resume" className="nav-link" onClick={closeMenu}>
-                  Resume
+              <li className={`nav-item ${isActive("/courses")}`}>
+                <Link href="/courses" className="nav-link" onClick={closeMenu}>
+                  Courses
                 </Link>
               </li>
               <li className={`nav-item ${isActive("/contact")}`}>
