@@ -1,0 +1,41 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.scrolled .navbar .navbar-brand {
+  color: #000;
+}
+.scrolled .navbar {
+  background-color: white;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+.scrolled .navbar .nav-link {
+  color: #000;
+}
+
+.navbar .navbar-toggler {
+  border: 1px solid #fff;
+}
+
+.scrolled .navbar .navbar-toggler {
+  border: 1px solid #000;
+}
+
+.navbar .navbar-toggler svg {
+  color: #fff;
+}
+
+.scrolled .navbar .navbar-toggler svg {
+  color: #000;
+}
+
+.navbar .navbar-toggler svg {
+  color: #fff;
+}

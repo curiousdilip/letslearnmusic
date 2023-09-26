@@ -1,0 +1,40 @@
+#hero {
+  position: relative;
+  height: 795px;
+  max-height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  background-image: url("/img/hero-img.jpg");
+  background-size: cover;
+}
+#hero .content h2.headline {
+  font-size: 78px;
+  color: #fff;
+  font-weight: 600;
+}
+#hero .content h2.headline span {
+  font-size: 18px;
+  display: block;
+  color: #ff8073;
+  margin-bottom: 26px;
+}
+#hero .content .sub-headline {
+  font-size: 78px;
+  font-weight: 600;
+  color: #7ec789;
+}
+#hero .content .cta {
+  padding: 18px 36px;
+  background-color: #ff8073;
+  display: inline-block;
+  box-shadow: 0 0 0 3em #ff8073 inset;
+  border-radius: 50px;
+}
+#hero .content .cta a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
