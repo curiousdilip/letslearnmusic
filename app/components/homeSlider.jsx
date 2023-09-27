@@ -26,7 +26,7 @@ export default function HomeSlider() {
       >
         {slider1.map((item, index) => (
           <SwiperSlide key={index}>
-            <div class="img-container">
+            <div className="img-container">
               {/* <Image
                 src={item.src}
                 width={1000}
@@ -37,9 +37,9 @@ export default function HomeSlider() {
               /> */}
               <img src={item.src} alt="" />
             </div>
-            <div class="text-block">
-              <div class="heading">{item.title}</div>
-              <div class="description">{item.description}</div>
+            <div className="text-block">
+              <div className="heading">{item.title}</div>
+              <div className="description">{item.description}</div>
               <a href={item.link}>View More</a>
             </div>
           </SwiperSlide>

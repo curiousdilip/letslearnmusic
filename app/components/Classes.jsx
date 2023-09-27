@@ -31,12 +31,14 @@ const Classes = ({
           </div>
           <div class="col-md-6">
             <img src={src} alt="" />
+            {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
         </>
       ) : (
         <>
           <div class="col-md-6">
-            <img src={src} alt="" />
+            <img src={src} alt="" />{" "}
+            {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
           <div class="col-md-5 offset-1">
             <div class="content">
