@@ -14,42 +14,42 @@ const Classes = ({
     <div className="row class-box justify-content-between align-items-center">
       {layout === "left" ? (
         <>
-          <div class="col-md-6">
-            <div class="content">
+          <div className="col-md-6">
+            <div className="content">
               <span>{title}</span>
               <h3>{subtitle}</h3>
               <h4>{price}</h4>
               <p>{description}</p>
-              <div class="links">
+              <div className="links">
                 <a href={link1}>View Schedule</a>
                 <a href={link2}>
-                  <i class="bi bi-telephone"> </i>
+                  <i className="bi bi-telephone"> </i>
                   &nbsp;{phone}
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <img src={src} alt="" />
             {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
         </>
       ) : (
         <>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <img src={src} alt="" />{" "}
             {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
-          <div class="col-md-5 offset-1">
-            <div class="content">
+          <div className="col-md-5 offset-1">
+            <div className="content">
               <span>{title}</span>
               <h3>{subtitle}</h3>
               <h4>{price}</h4>
               <p>{description}</p>
-              <div class="links">
+              <div className="links">
                 <a href={link1}>View Schedule</a>
                 <a href={link2}>
-                  <i class="bi bi-telephone"> </i>
+                  <i className="bi bi-telephone"> </i>
                   &nbsp;{phone}
                 </a>
               </div>

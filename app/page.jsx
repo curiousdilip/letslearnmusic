@@ -4,6 +4,7 @@ import "./globals.css";
 import HomeSlider from "./components/homeSlider";
 import Classes from "./components/Classes";
 import classData from "./data/home";
+import Gallery from "./components/gallery";
 export default function Home() {
   return (
     <main>
@@ -240,6 +241,89 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="join">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="youth-choir">
+                <div className="content">
+                  <div className="text-box">
+                    <h2>
+                      Join Choir,
+                      <br />
+                      Join Today!
+                    </h2>
+                    <a href="/contact">View More</a>
+                  </div>
+                  <div className="img-box">
+                    <img src="/img/join-choir.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="price">
+                <span className="subtitle">from</span>
+                <h3>$40</h3>
+                <span className="title">Pay as you go lesson</span>
+                <hr />
+                <p className="description">
+                  View available class schedules bylocation, time and day and
+                  forsecure online registration.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="price border">
+                <span className="subtitle">from</span>
+                <h3>$250</h3>
+                <span className="title">Pay as you go lesson</span>
+                <hr />
+                <p className="description">
+                  View available class schedules bylocation, time and day and
+                  forsecure online registration.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="price">
+                <span className="subtitle">from</span>
+                <h3>$480</h3>
+                <span className="title">Pay as you go lesson</span>
+                <hr />
+                <p className="description">
+                  View available class schedules bylocation, time and day and
+                  forsecure online registration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <Gallery />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6"></div>
+            <div className="col-md-6"></div>
           </div>
         </div>
       </section>

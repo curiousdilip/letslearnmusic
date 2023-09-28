@@ -23,7 +23,7 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  // metadataBase: new URL("https://www.letslearnmusic.in"),
+  metadataBase: new URL("https://www.letslearnmusic.in"),
   alternates: {
     canonical: "/",
   },

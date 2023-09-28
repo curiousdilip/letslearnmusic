@@ -44,3 +44,66 @@ export const classes = [
     layout: "left",
   },
 ];
+
+export const gallery = [
+  {
+    src: "/img/gallery/gallery_06.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_07.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_08.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_09.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_10.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_06.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_07.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_08.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_09.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_10.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_06.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_07.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_08.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_09.jpg",
+    title: "gallery",
+  },
+  {
+    src: "/img/gallery/gallery_10.jpg",
+    title: "gallery",
+  },
+];
