@@ -321,9 +321,75 @@ export default function Home() {
       </section>
       <section id="contact">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6"></div>
-            <div className="col-md-6"></div>
+          <div className="row align-items-center">
+            <div className="col-md-6">
+              <div className="img-box">
+                <img src="/img/inner_hero_03.png" alt="" />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="form">
+                <h4>Find Classes</h4>
+                <form action="#" method="">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div class="form-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          name="name"
+                          placeholder="Full Name"
+                          required
+                        />
+                        <span class="icon bi bi-person-circle"></span>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div class="form-group mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          name="email"
+                          placeholder="Email Address"
+                          required
+                        />
+                        <span class="icon bi bi-envelope "></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group mb-3">
+                    <select className="form-control">
+                      <option selected>Select your instruments</option>
+                      <option value="violin">Violin</option>
+                      <option value="piano">Piano</option>
+                      <option value="drums">Drums</option>
+                    </select>
+                    <span class="icon bi bi-music-note-beamed "></span>
+                  </div>
+
+                  <div class="form-group mb-3">
+                    <textarea
+                      rows="5"
+                      cols="10"
+                      id="msg"
+                      name="msg"
+                      placeholder="Message"
+                      className="w-100"
+                    ></textarea>
+                    <span class="icon-textarea bi bi-send  "></span>
+                  </div>
+
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
