@@ -373,9 +373,14 @@
   background-color: #fde0e4;
 }
 
+#contact .img-box {
+  text-align: right;
+  margin-right: 40px;
+}
+
 #contact .form {
   padding: 40px 25px;
-  max-width: 500px;
+  max-width: 400px;
   background-color: #fff;
 }
 #contact .form form {
@@ -385,23 +390,31 @@
   position: relative;
   float: left;
   margin-left: 8px;
-  margin-top: -30px;
+  margin-top: -29px;
   z-index: 2;
-  color: #222222;
+  color: #ff807c;
 }
 
 #contact .form form .icon-textarea {
   float: left;
   margin-left: 8px;
-  margin-top: -140px;
+  margin-top: -110px;
   position: relative;
   z-index: 2;
-  color: #222222;
+  color: #ff807c;
 }
 
 #contact .form form input,
 #contact .form form select,
 #contact .form form textarea {
   padding-left: 32px;
-  /* border-color: transparent; */
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  color: #818181;
+}
+
+#contact .form form input,
+#contact .form form select {
+  border-radius: 50px;
 }
