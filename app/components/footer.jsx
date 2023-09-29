@@ -1,5 +1,5 @@
 import "./footer.css";
-export default function About() {
+export default function Footer() {
   return (
     <>
       <footer>
