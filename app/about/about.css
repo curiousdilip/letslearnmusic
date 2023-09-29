@@ -1,0 +1,21 @@
+#about-hero {
+  margin-top: 82px;
+  height: 665px;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222b54;
+}
+
+#about-hero span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#about-hero h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}

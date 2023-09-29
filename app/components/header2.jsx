@@ -29,9 +29,9 @@ const Header2 = () => {
   };
 
   return (
-    <header className={scroll}>
+    <header className="header2">
       <nav
-        className={`navbar navbar-expand-lg fixed-top ${
+        className={`navbar navbar-expand-lg fixed-top  ${
           menuOpen ? "show" : ""
         }`}
       >

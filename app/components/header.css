@@ -39,3 +39,22 @@
 .navbar .navbar-toggler svg {
   color: #fff;
 }
+
+.header2 .navbar {
+  background-color: #fff;
+}
+
+.header2 .navbar .nav-link {
+  color: #000;
+}
+
+.header2 .navbar .navbar-toggler {
+  border: 1px solid #000;
+}
+.header2 .navbar .navbar-toggler svg {
+  color: #000;
+}
+
+.header2 .navbar .navbar-brand {
+  color: #000;
+}
