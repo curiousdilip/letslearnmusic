@@ -19,3 +19,39 @@
   font-weight: 600;
   color: #fff;
 }
+
+#about-features {
+  background-color: #fde0e4;
+  padding: 128px 0;
+}
+
+#about-features span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff8073;
+}
+
+#about-features h3 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #191919;
+}
+
+#about-features p {
+  max-width: 600px;
+  font-size: 18px;
+  color: #191919;
+}
+
+#about-features .box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#about-features .box .icon {
+  margin-right: 24px;
+}
+#about-features .box .icon i {
+  color: #b61984;
+  font-size: 20px;
+}
