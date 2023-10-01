@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header2 from "../components/header2";
 import "./about.css";
+import Footer from "../components/footer";
 export default function About() {
   return (
     <>
@@ -17,7 +18,7 @@ export default function About() {
                 </h2>
               </div>
               <div className="col-md-4">
-                <img src="/img/hero_contact.png" alt="" />
+                <img src="/img/hero_contact.png" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -103,7 +104,129 @@ export default function About() {
             </div>
           </div>
         </section>
+        <section id="about-review">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <div className="st-review">
+                  <div className="image">
+                    <img src="/img/testmonials.png" alt="" />
+                  </div>
+                  <p className="review">
+                    „Tabula music school is a MUST for anyone interested in
+                    bettering their music skills.”
+                  </p>
+                  <h6>Name</h6>
+                </div>
+
+                <img
+                  className="loose-circle"
+                  src="/img/green-symbol-outline.png"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-6">
+                <img
+                  src="/img/hero_contact.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about-teachers">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="heading w-100">
+                  <h3>Our Talented Teachers</h3>
+                  <a href="#">Apply Now</a>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <div className="teams">
+                  <div className="team">
+                    <div className="img-box">
+                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                    </div>
+                    <div className="text">
+                      <span className="sheading">Music</span>
+                      <h4 className="mheading">Ramen Paul</h4>
+                      <p className="description">Nanotechnology immersion along the information.
+
+                      </p>
+                      <div className="social-links">
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="team">
+                    <div className="img-box">
+                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                    </div>
+                    <div className="text">
+                      <span className="sheading">Music</span>
+                      <h4 className="mheading">Ramen Paul</h4>
+                      <p className="description">Nanotechnology immersion along the information.
+
+                      </p>
+                      <div className="social-links">
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="team">
+                    <div className="img-box">
+                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                    </div>
+                    <div className="text">
+                      <span className="sheading">Music</span>
+                      <h4 className="mheading">Ramen Paul</h4>
+                      <p className="description">Nanotechnology immersion along the information.
+
+                      </p>
+                      <div className="social-links">
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="team">
+                    <div className="img-box">
+                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                    </div>
+                    <div className="text">
+                      <span className="sheading">Music</span>
+                      <h4 className="mheading">Ramen Paul</h4>
+                      <p className="description">Nanotechnology immersion along the information.
+
+                      </p>
+                      <div className="social-links">
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#"><i className="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <Footer />
     </>
   );
 }

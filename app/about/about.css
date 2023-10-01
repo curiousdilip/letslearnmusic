@@ -48,10 +48,168 @@
   justify-content: center;
   align-items: flex-start;
 }
+
 #about-features .box .icon {
   margin-right: 24px;
 }
+
 #about-features .box .icon i {
   color: #b61984;
   font-size: 20px;
+}
+
+
+#about-review {
+  background-color: #fff;
+  padding: 128px 0;
+  position: relative;
+}
+
+#about-review .st-review {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  text-align: center;
+  padding: 10px;
+}
+
+#about-review .st-review img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+#about-review .st-review .review {
+  font-size: 27px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+#about-review .content span {
+  color: #ff8073;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#about-review .content h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #191919;
+}
+
+#about-review .content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #191919;
+  margin-top: 18px;
+  margin-bottom: 64px;
+}
+
+#about-review .content .cta {
+  padding: 18px 36px;
+  background-color: #ff8073;
+  display: inline-block;
+  box-shadow: 0 0 0 3em #ff8073 inset;
+  border-radius: 50px;
+}
+
+#about-review .content .cta a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#about-review .loose-circle {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+}
+
+#about-teachers {
+  padding: 128px 0;
+  background-color: #fde0e4;
+
+}
+
+#about-teachers .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+#about-teachers .heading h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#about-teachers .heading a {
+  font-size: 14px;
+  /* background-color: #b61984; */
+  box-shadow: 0 0 0 3em #b61984 inset;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  text-transform: uppercase;
+}
+
+#about-teachers .teams {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 40px;
+  place-content: center;
+}
+
+#about-teachers .teams .team .img-box {
+  height: 300px;
+  overflow: hidden;
+
+}
+
+#about-teachers .teams .team .img-box img {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+
+}
+
+#about-teachers .teams .team {
+  border-radius: 20px;
+}
+
+#about-teachers .teams .team .text {
+  border: 1px solid red;
+  padding: 30px;
+}
+
+
+#about-teachers .teams .team .text .sheading {
+  font-size: 12px;
+  font-weight: 600;
+  color: #b61984;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#about-teachers .teams .team .text .mheading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #191919;
+  margin: 20px 0;
+
+}
+
+#about-teachers .teams .team .text .social-links a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #191919;
 }
