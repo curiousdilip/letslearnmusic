@@ -336,44 +336,44 @@ export default function Home() {
                   <form action="#" method="">
                     <div className="row mb-4 pb-2">
                       <div className="col-md-6">
-                        <div class="form-group ">
+                        <div className="form-group ">
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="name"
                             name="name"
                             placeholder="Full Name"
                             required
                           />
-                          <span class="icon bi bi-person-circle"></span>
+                          <span className="icon bi bi-person-circle"></span>
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <div class="form-group">
+                        <div className="form-group">
                           <input
                             type="email"
-                            class="form-control"
+                            className="form-control"
                             id="email"
                             name="email"
                             placeholder="Email Address"
                             required
                           />
-                          <span class="icon bi bi-envelope "></span>
+                          <span className="icon bi bi-envelope "></span>
                         </div>
                       </div>
                     </div>
 
-                    <div class="form-group mb-4 pb-2">
+                    <div className="form-group mb-4 pb-2">
                       <select className="form-control">
                         <option selected>Select your instruments</option>
                         <option value="violin">Violin</option>
                         <option value="piano">Piano</option>
                         <option value="drums">Drums</option>
                       </select>
-                      <span class="icon bi bi-music-note-beamed "></span>
+                      <span className="icon bi bi-music-note-beamed "></span>
                     </div>
 
-                    <div class="form-group mb-4 pb-2">
+                    <div className="form-group mb-4 pb-2">
                       <textarea
                         rows="5"
                         cols="10"
@@ -382,11 +382,11 @@ export default function Home() {
                         placeholder="Message"
                         className="w-100"
                       ></textarea>
-                      <span class="icon-textarea bi bi-send  "></span>
+                      <span className="icon-textarea bi bi-send  "></span>
                     </div>
 
-                    <div class="col-sm-12">
-                      <button type="submit" class="btn btn-primary">
+                    <div className="col-sm-12">
+                      <button type="submit" className="btn btn-primary">
                         Submit
                       </button>
                     </div>
