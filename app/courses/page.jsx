@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Footer from "../components/footer";
 import Header2 from "../components/header2";
-import "./courses.css"
+import "./courses.css";
 import Courses from "../components/Course";
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
               <div className="col-md-8">
                 <span>Courses </span>
                 <h2>
-                  Choose a program       <br /> that suits you
+                  Choose a program <br /> that suits you
                 </h2>
               </div>
               <div className="col-md-4">
