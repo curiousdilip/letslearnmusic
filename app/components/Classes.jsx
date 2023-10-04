@@ -30,17 +30,17 @@ const Classes = ({
             </div>
           </div>
           <div className="col-md-6">
-            <img src={src} alt="" />
+            <img src={src} alt="" className=" img-fluid" />
             {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
         </>
       ) : (
         <>
           <div className="col-md-6">
-            <img src={src} alt="" />{" "}
+            <img src={src} alt="" className=" img-fluid" />{" "}
             {/* <Image src={src} width={615} height={574} alt={title} /> */}
           </div>
-          <div className="col-md-5 offset-1">
+          <div className="col-md-6">
             <div className="content">
               <span>{title}</span>
               <h3>{subtitle}</h3>

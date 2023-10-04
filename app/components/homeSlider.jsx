@@ -16,13 +16,27 @@ export default function HomeSlider() {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="slider-1"
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
       >
         {slider1.map((item, index) => (
           <SwiperSlide key={index}>

@@ -181,7 +181,6 @@
 
 #classes .class-container .class:hover {
   border-radius: 40% 20% 50% 20%;
-
 }
 
 #single-class {
@@ -463,4 +462,14 @@
 #contact .form form input,
 #contact .form form select {
   border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  #classes .class-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about .loose-circle {
+    display: none;
+  }
 }

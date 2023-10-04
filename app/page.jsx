@@ -44,7 +44,11 @@ export default function Home() {
               <div className="col-md-6">
                 <div className="st-review">
                   <div className="image">
-                    <img src="/img/testmonials.png" alt="" />
+                    <img
+                      src="/img/testmonials.png"
+                      alt=""
+                      className=" img-fluid"
+                    />
                   </div>
                   <p className="review">
                     „Tabula music school is a MUST for anyone interested in
@@ -54,12 +58,12 @@ export default function Home() {
                 </div>
 
                 <img
-                  className="loose-circle"
+                  className="loose-circle img-fluid"
                   src="/img/green-symbol-outline.png"
                   alt=""
                 />
               </div>
-              <div className="col-md-5 offset-1">
+              <div className="col-md-6">
                 <div className="content">
                   <span>About Us</span>
                   <h2>Let's Learn Music</h2>
@@ -262,7 +266,11 @@ export default function Home() {
                       <a href="/contact">View More</a>
                     </div>
                     <div className="img-box">
-                      <img src="/img/join-choir.png" alt="" />
+                      <img
+                        src="/img/join-choir.png"
+                        alt=""
+                        className=" img-fluid"
+                      />
                     </div>
                   </div>
                 </div>
@@ -327,7 +335,11 @@ export default function Home() {
             <div className="row align-items-center justify-content-center">
               <div className="col-md-6">
                 <div className="img-box">
-                  <img src="/img/inner_hero_03.png" alt="" />
+                  <img
+                    src="/img/inner_hero_03.png"
+                    alt=""
+                    className=" img-fluid"
+                  />
                 </div>
               </div>
               <div className="col-md-6">
