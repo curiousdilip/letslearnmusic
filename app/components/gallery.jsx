@@ -17,12 +17,26 @@ export default function Gallery() {
   return (
     <>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={1}
         navigation={true}
         spaceBetween={0}
         loop={true}
         modules={[Navigation]}
         className="gallery"
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
       >
         {gallery.map((item, index) => (
           <SwiperSlide key={index}>

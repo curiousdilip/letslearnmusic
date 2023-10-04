@@ -224,6 +224,7 @@
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
+  display: inline-block;
 }
 
 #single-class .class-box .content .links a:first-child {
@@ -465,11 +466,132 @@
 }
 
 @media (max-width: 768px) {
-  #classes .class-container {
-    grid-template-columns: 1fr 1fr;
+  /* section {
+    padding: 64px 0;
+  } */
+  #hero {
+    height: 60vh;
+    background-position: center;
+  }
+  #hero .content {
+    text-align: center;
+  }
+
+  #hero .content h2.headline {
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+
+  #hero .content .sub-headline {
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+  #types .swiper {
+    padding: 20px 0;
+  }
+
+  #about .st-review {
+    height: auto;
+    padding: 60px 0;
   }
 
   #about .loose-circle {
     display: none;
+  }
+
+  #about .content p {
+    margin-bottom: 32px;
+  }
+  #about .content {
+    padding-bottom: 64px;
+    text-align: center;
+  }
+
+  #classes {
+    padding: 40px 0;
+  }
+
+  #classes .class-container {
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #single-class {
+    padding-bottom: 64px;
+  }
+  #single-class .class-box {
+    padding-top: 64px;
+  }
+
+  #single-class .class-box .content {
+    padding-bottom: 30px;
+  }
+
+  #single-class .class-box img {
+    padding: 20px;
+  }
+  #wk-schedule {
+    padding: 64px 0;
+  }
+
+  #wk-schedule .heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  #wk-schedule .sc-box {
+    margin-bottom: 30px;
+  }
+  #wk-schedule .sc-box:last-child {
+    margin-bottom: 0;
+  }
+
+  #join {
+    padding-bottom: 64px;
+    padding-top: 0;
+  }
+
+  #join .youth-choir .content {
+    flex-direction: column;
+  }
+
+  #join .youth-choir .content .text-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  #pricing {
+    padding: 64px 0;
+    background-position: center;
+  }
+
+  #pricing .price {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  #gallery {
+    padding: 64px 0;
+  }
+  #gallery .gallery img {
+    width: 100%;
+  }
+
+  #contact {
+    padding-bottom: 64px;
+  }
+
+  #contact .img-box {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #contact .form {
+    border-radius: 10px;
+    padding: 20px;
   }
 }
