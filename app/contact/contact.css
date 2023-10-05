@@ -46,6 +46,7 @@
 #contact-details iframe {
   margin-top: 64px;
   border-radius: 10px;
+  height: 500px;
 }
 
 #contact-form {
@@ -112,4 +113,54 @@
 
 #contact-gallery .gallery img {
   width: 300px;
+}
+
+@media (max-width: 768px) {
+  #contact-hero {
+    height: 60vh;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  #contact-hero h2 {
+    font-size: 30px;
+  }
+
+  #contact-hero img {
+    display: none;
+  }
+
+  #contact-details {
+    padding: 64px 0;
+  }
+
+  #contact-details .box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #contact-details iframe {
+    height: 300px;
+    margin-top: 32px;
+  }
+
+  #contact-form {
+    padding: 64px 0;
+  }
+  #contact-form .img-box {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  #contact-form .form {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  #contact-gallery {
+    padding-bottom: 64px;
+  }
+  #contact-gallery .gallery img {
+    width: 100%;
+  }
 }

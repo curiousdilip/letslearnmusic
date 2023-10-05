@@ -89,7 +89,7 @@ export default function Contact() {
             <div className="row">
               <div className="col-md-12">
                 <iframe
-                  style={{ height: "500px", width: "100%", border: "0" }}
+                  style={{ width: "100%", border: "0" }}
                   frameBorder="0"
                   src="https://www.google.com/maps/embed/v1/place?q=Ramen+school+of+music(now+online+classes),+Kali+Nagar,+Bengali+Colony,+Mahavir+Enclave+Part+1,+Mahavir+Enclave,+New+Delhi,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                 ></iframe>
@@ -102,7 +102,11 @@ export default function Contact() {
             <div className="row align-items-center justify-content-center">
               <div className="col-md-6">
                 <div className="img-box">
-                  <img src="/img/inner_hero_03.png" alt="" />
+                  <img
+                    src="/img/inner_hero_03.png"
+                    alt=""
+                    className="img-fluid"
+                  />
                 </div>
               </div>
               <div className="col-md-6">
@@ -139,7 +143,7 @@ export default function Contact() {
                     </div>
 
                     <div className="form-group mb-4 pb-2">
-                      <select className="form-control" >
+                      <select className="form-control">
                         <option selected>Select your instruments</option>
                         <option value="violin">Violin</option>
                         <option value="piano">Piano</option>
