@@ -21,7 +21,7 @@
 }
 
 #courses .course-box {
-  padding: 64px 0;
+  padding-top: 64px;
 }
 #courses .course-box .content span {
   color: #ff8073;
@@ -75,4 +75,23 @@
   font-weight: 600;
   text-decoration: none;
   box-shadow: 0 0 0 3em #ff8073 inset;
+}
+@media (max-width: 768px) {
+  #courses-hero {
+    height: 60vh;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  #courses-hero h2 {
+    font-size: 30px;
+  }
+
+  #courses-hero img {
+    display: none;
+  }
+
+  #courses .course-box:nth-child(2) .content a {
+    margin-bottom: 20px;
+  }
 }
