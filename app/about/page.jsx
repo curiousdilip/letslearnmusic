@@ -27,7 +27,7 @@ export default function About() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img src="/img/hero_contact.png" alt="" />
+                <img src="/img/hero_contact.png" alt="" className="img-fluid" />
               </div>
               <div className="col-md-6">
                 <div className="content">
@@ -126,11 +126,7 @@ export default function About() {
                 />
               </div>
               <div className="col-md-6">
-                <img
-                  src="/img/hero_contact.png"
-                  alt=""
-                  className="img-fluid"
-                />
+                <img src="/img/hero_contact.png" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -150,73 +146,121 @@ export default function About() {
                 <div className="teams">
                   <div className="team">
                     <div className="img-box">
-                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                      <img
+                        src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75"
+                        alt=""
+                        className="img-fluid"
+                      />
                     </div>
                     <div className="text">
                       <span className="sheading">Music</span>
                       <h4 className="mheading">Ramen Paul</h4>
-                      <p className="description">Nanotechnology immersion along the information.
-
+                      <p className="description">
+                        Nanotechnology immersion along the information.
                       </p>
                       <div className="social-links">
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
                   <div className="team">
                     <div className="img-box">
-                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                      <img
+                        src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75"
+                        alt=""
+                        className="img-fluid"
+                      />
                     </div>
                     <div className="text">
                       <span className="sheading">Music</span>
                       <h4 className="mheading">Ramen Paul</h4>
-                      <p className="description">Nanotechnology immersion along the information.
-
+                      <p className="description">
+                        Nanotechnology immersion along the information.
                       </p>
                       <div className="social-links">
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
                   <div className="team">
                     <div className="img-box">
-                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                      <img
+                        src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75"
+                        alt=""
+                        className="img-fluid"
+                      />
                     </div>
                     <div className="text">
                       <span className="sheading">Music</span>
                       <h4 className="mheading">Ramen Paul</h4>
-                      <p className="description">Nanotechnology immersion along the information.
-
+                      <p className="description">
+                        Nanotechnology immersion along the information.
                       </p>
                       <div className="social-links">
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
                   <div className="team">
                     <div className="img-box">
-                      <img src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75" alt="" className="img-fluid" />
+                      <img
+                        src="https://www.ramenpaul.com/_next/image?url=%2Fabout-img.jpg&w=640&q=75"
+                        alt=""
+                        className="img-fluid"
+                      />
                     </div>
                     <div className="text">
                       <span className="sheading">Music</span>
                       <h4 className="mheading">Ramen Paul</h4>
-                      <p className="description">Nanotechnology immersion along the information.
-
+                      <p className="description">
+                        Nanotechnology immersion along the information.
                       </p>
                       <div className="social-links">
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
-                        <a href="#"><i className="bi bi-facebook"></i></a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="#">
+                          <i className="bi bi-facebook"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
