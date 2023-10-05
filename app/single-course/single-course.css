@@ -132,3 +132,43 @@
 #gallery .gallery img {
   width: 300px;
 }
+
+@media (max-width: 768px) {
+  #sc-hero {
+    height: 60vh;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  #sc-hero h2 {
+    font-size: 30px;
+  }
+
+  #sc-hero img {
+    display: none;
+  }
+
+  #sc-features {
+    padding: 64px 0;
+  }
+
+  #courses .course-box img {
+    margin: 20px 0;
+  }
+
+  #prices {
+    padding: 64px 0;
+    background-position: center;
+  }
+
+  #prices .price {
+    margin: 20px;
+    padding: 20px;
+  }
+  #gallery {
+    padding: 64px 0;
+  }
+  #gallery .gallery img {
+    width: 100%;
+  }
+}

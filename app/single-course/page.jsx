@@ -32,7 +32,7 @@ export default function About() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img src="/img/hero_contact.png" alt="" />
+                <img src="/img/hero_contact.png" alt="" className="img-fluid" />
               </div>
               <div className="col-md-6">
                 <div className="content">
