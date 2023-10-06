@@ -16,6 +16,9 @@
 .navbar .nav-link {
   color: #fff;
 }
+.navbar .nav-link.active {
+  color: #000;
+}
 .scrolled .navbar .nav-link {
   color: #000;
 }

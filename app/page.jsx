@@ -56,12 +56,6 @@ export default function Home() {
                   </p>
                   <h6>Name</h6>
                 </div>
-
-                <img
-                  className="loose-circle img-fluid"
-                  src="/img/green-symbol-outline.png"
-                  alt=""
-                />
               </div>
               <div className="col-md-6">
                 <div className="content">
@@ -92,23 +86,23 @@ export default function Home() {
                     <a href="#">Learn More</a>
                   </div>
                   <div className="class">
-                    <h3>Piano</h3>
+                    <h3>Drums</h3>
                     <a href="#">Learn More</a>
                   </div>
                   <div className="class">
-                    <h3>Piano</h3>
+                    <h3>Keyboard</h3>
                     <a href="#">Learn More</a>
                   </div>
                   <div className="class">
-                    <h3>Piano</h3>
+                    <h3>Guitar</h3>
                     <a href="#">Learn More</a>
                   </div>
                   <div className="class">
-                    <h3>Piano</h3>
+                    <h3>Cello</h3>
                     <a href="#">Learn More</a>
                   </div>
                   <div className="class">
-                    <h3>Piano</h3>
+                    <h3>Vocal</h3>
                     <a href="#">Learn More</a>
                   </div>
                 </div>
